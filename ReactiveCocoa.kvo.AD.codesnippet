@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rac_AlertView</string>
+	<string>rac_KVO</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    [[&lt;#alertView#&gt; rac_buttonClickedSignal]subscribeNext:^(id x) {
+	<string>    [RACObserve(&lt;#object#&gt;, &lt;#keyPath#&gt;) subscribeNext:^(&lt;#class#&gt; * &lt;#name#&gt;) {
         &lt;#xxx#&gt;
-
+       
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CD68B894-042E-458D-B2CF-2296492476C7</string>
+	<string>D2C1C19C-7DEA-46E2-AB33-C00867CE6117</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>RAC AlertView</string>
+	<string>RAC KVO</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,25 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rac_AlertView</string>
+	<string>rac_ButtonCommand</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    [[&lt;#alertView#&gt; rac_buttonClickedSignal]subscribeNext:^(id x) {
-        &lt;#xxx#&gt;
-
+	<string>    &lt;#button#&gt;.rac_command = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input) {
+        
+        return [RACSignal empty];
+        
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CD68B894-042E-458D-B2CF-2296492476C7</string>
+	<string>12E1C3C4-5053-45B9-8E4E-916E27E2DA30</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>RAC AlertView</string>
+	<string>RAC Button Command</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
