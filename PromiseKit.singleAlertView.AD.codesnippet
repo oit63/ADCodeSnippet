@@ -3,23 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rac_ButtonCommand</string>
+	<string>pmk_singleAlertView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    &lt;#button#&gt;.rac_command = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input) {
+	<string>    [[[UIAlertView alloc] initWithTitle:
+      @"&lt;#Title#&gt;" message:
+      @"&lt;#Content#&gt;" delegate:nil cancelButtonTitle:
+      @"&lt;#CancelName#&gt;" otherButtonTitles:
+      @"&lt;#ConfirmName#&gt;",nil]
+     promise].
+    then(^(NSNumber *clickedIndex){
+        if (! clickedIndex.intValue ) { return [PMKPromise new]; }
         
-        return [RACSignal empty];
         
-    }];</string>
+        return [PMKPromise new];
+    });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>12E1C3C4-5053-45B9-8E4E-916E27E2DA30</string>
+	<string>105ED649-1614-4CC9-AA71-FF149DB7C166</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>RAC Button Command</string>
+	<string>PromiseKit SingleAlertView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
