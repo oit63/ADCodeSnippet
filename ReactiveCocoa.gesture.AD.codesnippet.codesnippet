@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>rac_Gesture</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    &lt;#x1x#&gt;.userInteractionEnabled = YES;
+    
+    &lt;#x2x#&gt; * &lt;#x2x#&gt; = [[&lt;#x2x#&gt; alloc]init];
+    [[&lt;#x3x#&gt; rac_gestureSignal] subscribeNext:^(&lt;#x3x#&gt; * &lt;#x3x#&gt;) {
+        &lt;#x4x#&gt;
+    }];
+    [&lt;#x5x#&gt; addGestureRecognizer:&lt;#x5x#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AEC8A1F2-1DDE-44A4-95C1-B2FE74BE2830</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>RAC Gesture</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
