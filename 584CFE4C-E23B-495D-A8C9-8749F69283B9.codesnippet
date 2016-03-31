@@ -17,7 +17,7 @@
                                   if (old != new ) {
 
                                   } else {
-                                   // UALog(@"&lt;#some describe#&gt; didn't changed");
+                                   // NSLog(@"&lt;#some describe#&gt; didn't changed");
                                   }
                               }];</string>
 	<key>IDECodeSnippetIdentifier</key>

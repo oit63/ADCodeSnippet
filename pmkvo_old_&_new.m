@@ -15,6 +15,6 @@
                                   if (old != new ) {
 
                                   } else {
-                                   // UALog(@"<#some describe#> didn't changed");
+                                   // NSLog(@"<#some describe#> didn't changed");
                                   }
                               }];
