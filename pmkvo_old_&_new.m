@@ -6,7 +6,7 @@
 // IDECodeSnippetIdentifier: B89BC2B5-2B4A-4855-868D-430DBF0ECA2D
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C-Plus-Plus
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 0
+// IDECodeSnippetVersion: 2
         //    <#Obj> = <#Obj>.keyPath;
         //    if (self.keyPath) {
     [PMKVObserver observeObject:<#Obj#> keyPath:@"<#KeyPath#>"
