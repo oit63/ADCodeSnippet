@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pm_KvoOldAndNew</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        //    &lt;#Obj&gt; = &lt;#Obj&gt;.keyPath;
+        //    if (self.keyPath) {
+    [PMKVObserver observeObject:&lt;#Obj#&gt; keyPath:@"&lt;#KeyPath#&gt;"
+                        options:NSKeyValueObservingOptionOld | NSKeyValueObservingOptionNew
+                          block:^(id  _Nonnull object, NSDictionary&lt;NSString *,id&gt; * _Nullable change, PMKVObserver * _Nonnull kvo) {
+                              NSNumber *old = change[NSKeyValueChangeOldKey];
+                              NSNumber *new = change[NSKeyValueChangeNewKey];
+                              if (old != new ) {
+                                  
+                              } else {
+                                      // NSLog(@"&lt;#some describe#&gt; didn't changed");
+                              }
+                          }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B89BC2B5-2B4A-4855-868D-430DBF0ECA2D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>PMKVO Old &amp; New</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
