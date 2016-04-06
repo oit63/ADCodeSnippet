@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pmk_3.0TripleAlertView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+    AnyPromise *promise = nil; 
+    UIAlertView *alertView =({
+        alertView = [[UIAlertView alloc] initWithTitle:
+                     @"&lt;#Title#&gt;" message:
+                     @"&lt;#Content#&gt;" delegate:nil cancelButtonTitle:
+                     @"&lt;#CancelName#&gt;" otherButtonTitles:
+                     @"&lt;#ConfirmName#&gt;",nil];
+        alertView.alertViewStyle =  UIAlertViewStylePlainTextInput;
+        UITextField *topTextField = [alertView textFieldAtIndex:0];
+        topTextField.placeholder = @"&lt;#PlaceHolder#&gt;";
+        
+        alertView;
+    });
+    [alertView promise].then
+    (^(NSNumber *clicked,UIAlertView *lastAlertView){
+        if (! clicked.intValue ) { return promise;}
+        UITextField *lastTopTextField = [lastAlertView textFieldAtIndex:0];
+        
+        UIAlertView *alertView =({
+            alertView = [[UIAlertView alloc] initWithTitle:
+                         @"&lt;#Title#&gt;" message:
+                         @"&lt;#Content#&gt;" delegate:nil cancelButtonTitle:
+                         @"&lt;#CancelName#&gt;" otherButtonTitles:
+                         @"&lt;#ConfirmName#&gt;",nil];
+            alertView.alertViewStyle =  UIAlertViewStylePlainTextInput;
+            UITextField *topTextField = [alertView textFieldAtIndex:0];
+                topTextField.placeholder = @"&lt;#PlaceHolder#&gt;";
+            
+            alertView;
+        });
+        return [alertView promise];
+    }).then
+    (^(NSNumber *clicked,UIAlertView *lastAlertView){
+        if (! clicked.intValue ) { return promise;}
+        UITextField *lastTopTextField = [lastAlertView textFieldAtIndex:0];
+        
+        UIAlertView *alertView =({
+            alertView = [[UIAlertView alloc] initWithTitle:
+                         @"&lt;#Title#&gt;" message:
+                         @"&lt;#Content#&gt;" delegate:nil cancelButtonTitle:
+                         @"&lt;#CancelName#&gt;" otherButtonTitles:
+                         @"&lt;#ConfirmName#&gt;",nil];
+            alertView.alertViewStyle =  UIAlertViewStylePlainTextInput;
+            UITextField *topTextField = [alertView textFieldAtIndex:0];
+            topTextField.placeholder = @"&lt;#PlaceHolder#&gt;";
+            
+            alertView;
+        });
+        return [alertView promise];
+    }).then
+    (^(NSNumber *clicked,UIAlertView *lastAlertView){
+        if (! clicked.intValue ) { return promise;}
+        UITextField *lastTopTextField = [lastAlertView textFieldAtIndex:0];
+        
+        return promise;
+    });
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F4E54DB0-13C0-40D4-BA0A-AA83700B3395</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>PromiseKit 3.0 TripleAlertView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
