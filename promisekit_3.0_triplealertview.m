@@ -6,7 +6,7 @@
 // IDECodeSnippetIdentifier: F4E54DB0-13C0-40D4-BA0A-AA83700B3395
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 0
+// IDECodeSnippetVersion: 2
 
     AnyPromise *promise = nil; 
     UIAlertView *alertView =({
