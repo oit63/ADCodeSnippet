@@ -1,4 +1,4 @@
-// PromiseKit 1.0TripleAlertView
+// PromiseKit 1.0 TripleAlertView
 // 
 //
 // IDECodeSnippetCompletionPrefix: pmk_1.0TripleAlertView
