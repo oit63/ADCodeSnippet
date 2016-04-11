@@ -1,4 +1,4 @@
-// RAC NotificationCenter Observer
+// RAC StatusBar Orientation NotificationCenter Observer
 // 
 //
 // IDECodeSnippetCompletionPrefix: rac_NotificationCenterStatusBarOrientationObserver
