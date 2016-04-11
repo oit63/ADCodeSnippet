@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    [[[NSNotificationCenter defaultCenter] rac_addObserverForName:UIApplicationWillChangeStatusBarOrientationNotification object:nil] subscribeNext:^(NSNotification * notification) {
+        self.lastIndexPath = [[self indexPathsForVisibleItems] lastObject];
+        NSNumber *orientationKey = notification.userInfo[@"UIApplicationStatusBarOrientationUserInfoKey"];
+        if (orientationKey.intValue&gt;2) {
+            
+        } else {
+            
+        }
+        
+        [[RACScheduler mainThreadScheduler]afterDelay:0.0001 schedule:^{
+      
+        }];
+    }];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A08084FC-35EC-4A68-A721-78D0AE3EFAA6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string></string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
