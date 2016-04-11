@@ -1,5 +1,5 @@
 // RAC StatusBar Orientation NotificationCenter Observer
-// >2 is horizon
+// >2 is landscaped
 //
 // IDECodeSnippetCompletionPrefix: rac_NotificationCenterStatusBarOrientationObserver
 // IDECodeSnippetCompletionScopes: [CodeBlock]
