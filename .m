@@ -1,7 +1,7 @@
 // 
 // 
 //
-// IDECodeSnippetCompletionPrefix: rac_NotificationCenterOrientationObserver
+// IDECodeSnippetCompletionPrefix: rac_NotificationCenterStatusBarOrientationObserver
 // IDECodeSnippetCompletionScopes: [CodeBlock]
 // IDECodeSnippetIdentifier: A08084FC-35EC-4A68-A721-78D0AE3EFAA6
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
