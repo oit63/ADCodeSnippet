@@ -13,7 +13,8 @@
         self.lastIndexPath = [[self indexPathsForVisibleItems] lastObject];
         NSNumber *orientationKey = notification.userInfo[@"UIApplicationStatusBarOrientationUserInfoKey"];
         if (orientationKey.intValue&gt;2) {
-            // norizontal
+            // horizontal
+            
         } else {
             
         }
