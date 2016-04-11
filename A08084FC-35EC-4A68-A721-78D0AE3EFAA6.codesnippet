@@ -27,6 +27,8 @@
 	<string>A08084FC-35EC-4A68-A721-78D0AE3EFAA6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>&gt;2 is horizon</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>RAC StatusBar Orientation NotificationCenter Observer</string>
 	<key>IDECodeSnippetUserSnippet</key>
