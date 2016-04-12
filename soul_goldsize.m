@@ -6,7 +6,7 @@
 // IDECodeSnippetIdentifier: 44D29B71-92C6-4DC9-A363-53AA2DC9E0CF
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 0
+// IDECodeSnippetVersion: 2
         [self mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.background);
             make.left.right.equalTo(self.background);
