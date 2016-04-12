@@ -1,7 +1,7 @@
 // soul initSoul 
 // 
 //
-// IDECodeSnippetCompletionPrefix: initSoul 
+// IDECodeSnippetCompletionPrefix: soul_initSoul 
 // IDECodeSnippetCompletionScopes: [ClassImplementation]
 // IDECodeSnippetIdentifier: DDE2CDA1-08E2-4D0E-A646-D84F7228CE7B
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
