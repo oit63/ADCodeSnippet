@@ -1,13 +1,13 @@
-// soulWillDisappear
+// soulWillAppear
 // 
 //
-// IDECodeSnippetCompletionPrefix: soul_WillDisappear
+// IDECodeSnippetCompletionPrefix: soul_WillAppear
 // IDECodeSnippetCompletionScopes: [CodeBlock]
-// IDECodeSnippetIdentifier: 27A5CACB-29A2-4E10-9FF5-C299299C87CA
+// IDECodeSnippetIdentifier: EF291148-A4D5-495F-984F-848E46EC88E4
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-    self.soulWillDisappear = ^{
-        @strongify(self);
-        <##>
-    };
+self.soulWillAppear  = ^{
+    @strongify(self);
+    <##>
+};
