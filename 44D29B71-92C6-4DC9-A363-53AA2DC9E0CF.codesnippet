@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        [self mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.equalTo(self.background);
+            make.left.right.equalTo(self.background);
+            make.height.equalTo(self.mas_width).multipliedBy((soul_SCREENWIDTH)/(soul_SCREENHEIGHT));
+        }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>44D29B71-92C6-4DC9-A363-53AA2DC9E0CF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>soul_GoldSize</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>soul GoldSize</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
