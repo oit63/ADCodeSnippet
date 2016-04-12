@@ -1,4 +1,4 @@
-// initSoul 
+// soul initSoul 
 // 
 //
 // IDECodeSnippetCompletionPrefix: initSoul 
