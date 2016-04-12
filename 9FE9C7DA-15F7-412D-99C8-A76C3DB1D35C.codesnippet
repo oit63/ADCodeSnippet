@@ -10,6 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>^{
+    @strongify(self);
     &lt;##&gt;
 };
 </string>
