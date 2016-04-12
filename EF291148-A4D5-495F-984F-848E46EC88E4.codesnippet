@@ -9,7 +9,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>self.soulWillAppear  = ^{
     @strongify(self);
-    
+    &lt;##&gt;
 };</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EF291148-A4D5-495F-984F-848E46EC88E4</string>

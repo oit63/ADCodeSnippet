@@ -8,5 +8,5 @@
 // IDECodeSnippetVersion: 0
 self.soulWillAppear  = ^{
     @strongify(self);
-    
+    <##>
 };
