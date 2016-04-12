@@ -1,6 +1,7 @@
 // soul GoldSize
-// soul_GoldSize
+// 
 //
+// IDECodeSnippetCompletionPrefix: soul_GoldSize
 // IDECodeSnippetCompletionScopes: [CodeBlock]
 // IDECodeSnippetIdentifier: 44D29B71-92C6-4DC9-A363-53AA2DC9E0CF
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
