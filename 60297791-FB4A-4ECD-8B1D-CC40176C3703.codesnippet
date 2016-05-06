@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        self.vrItemImageDownloadingIndicator = ({
+            self.vrItemImageDownloadingIndicator = [UIActivityIndicatorView new];
+            [self.vrItemImageView addSubview:self.vrItemImageDownloadingIndicator];
+            [self.vrItemImageDownloadingIndicator mas_makeConstraints:^(MASConstraintMaker *make) {
+                make.edges.equalTo(self.vrItemImageView);
+            }];
+            // adds an indicator
+            
+            self.vrItemImageDownloadingIndicator;
+        });
+        // make an indicator</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>60297791-FB4A-4ECD-8B1D-CC40176C3703</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My Code Snippet</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
