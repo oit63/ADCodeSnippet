@@ -5,7 +5,7 @@
 // IDECodeSnippetIdentifier: A7BCFF35-E58E-4D64-8B1D-FFB0DF7730A0
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 0
+// IDECodeSnippetVersion: 2
         @property (nonatomic, strong) UIActivityIndicatorView *vrItemImageDownloadingIndicator;
         self.vrItemImageDownloadingIndicator = ({
             self.vrItemImageDownloadingIndicator = [UIActivityIndicatorView new];
