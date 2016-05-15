@@ -19,6 +19,8 @@ const NSString *XXTypeNameMapping[] = {
 	<string>045C75E2-C09A-40B9-9585-3C8D9CCC3094</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>enum?Object</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>NSObject ENum</string>
 	<key>IDECodeSnippetUserSnippet</key>
