@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    SoulTimer *timer = self.timeMatrix.decreasesKey(@"testMe").total(10).block(^ {
+    LxPrintAnything(1);
+        SoulTimer *timer1 = self.timeMatrix.decreasesKey(@"testMe").total(6).block(^ {
+            LxPrintAnything(2);
+        }).fire();
+        [timer1 observe:@selector(time) next:^(NSNumber *time) {
+            LxDBAnyVar(time);
+        }];
+    }).fire();
+    
+    [timer observe:@selector(time) next:^(NSNumber *time) {
+        LxDBAnyVar(time);
+    }];
+    
+    SoulTimer *timerGetted =  self.timeMatrix.get(@"test");
+    [timerGetted observe:@selector(time) next:^(NSNumber *time) {
+        //    SoulStrong(timer);
+        LxDBAnyVar(time);
+        LxDBAnyVar(self.timeMatrix.timerMDictionary);
+        if (time.intValue == 8) {
+            //            [timer stops];
+        }
+    }]</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6A60757F-6EDF-4272-9AF1-EFF0AEC61203</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>time Matrix</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
