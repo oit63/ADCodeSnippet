@@ -5,7 +5,7 @@
 // IDECodeSnippetIdentifier: 6A60757F-6EDF-4272-9AF1-EFF0AEC61203
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 0
+// IDECodeSnippetVersion: 2
     SoulTimer *timer = self.timeMatrix.decreasesKey(@"testMe").total(10).block(^ {
     LxPrintAnything(1);
         SoulTimer *timer1 = self.timeMatrix.decreasesKey(@"testMe").total(6).block(^ {
