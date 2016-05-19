@@ -7,3 +7,5 @@
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
 self.defaultMatrix([AccessoryTableDefaultSectionItemMatrix class]);
+//        .specify(1,[AccessoryTableDefaultSectionItemMatrix class])
+//        .specify(2,[AccessoryTableDefaultSectionItemMatrix class]);
