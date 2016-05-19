@@ -6,26 +6,26 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-    SoulTimer *timer = self.timeMatrix.decreasesKey(@"testMe").total(10).block(^ {
+SoulTimer *timer = self.time.decreasesKey(@"testMe").total(10).block(^ {
     LxPrintAnything(1);
-        SoulTimer *timer1 = self.timeMatrix.decreasesKey(@"testMe").total(6).block(^ {
-            LxPrintAnything(2);
-        }).fire();
-        [timer1 observe:@selector(time) next:^(NSNumber *time) {
-            LxDBAnyVar(time);
-        }];
+    SoulTimer *timer1 = self.time.decreasesKey(@"testMe").total(6).block(^ {
+        LxPrintAnything(2);
     }).fire();
-    
-    [timer observe:@selector(time) next:^(NSNumber *time) {
+    [timer1 observe:@selector(time) next:^(NSNumber *time) {
         LxDBAnyVar(time);
     }];
-    
-    SoulTimer *timerGetted =  self.timeMatrix.get(@"test");
-    [timerGetted observe:@selector(time) next:^(NSNumber *time) {
-        //    SoulStrong(timer);
-        LxDBAnyVar(time);
-        LxDBAnyVar(self.timeMatrix.timerMDictionary);
-        if (time.intValue == 8) {
-            //            [timer stops];
-        }
-    }]
+}).fire();
+
+[timer observe:@selector(time) next:^(NSNumber *time) {
+    LxDBAnyVar(time);
+}];
+
+SoulTimer *timerGetted =  self.time.get(@"testMe");
+[timerGetted observe:@selector(time) next:^(NSNumber *time) {
+    //    SoulStrong(timer);
+    LxDBAnyVar(time);
+    LxDBAnyVar(self.time.timerMDictionary);
+    if (time.intValue == 8) {
+        //            [timer stops];
+    }
+}];

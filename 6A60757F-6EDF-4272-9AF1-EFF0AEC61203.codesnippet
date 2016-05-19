@@ -7,29 +7,29 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    SoulTimer *timer = self.timeMatrix.decreasesKey(@"testMe").total(10).block(^ {
+	<string>SoulTimer *timer = self.time.decreasesKey(@"testMe").total(10).block(^ {
     LxPrintAnything(1);
-        SoulTimer *timer1 = self.timeMatrix.decreasesKey(@"testMe").total(6).block(^ {
-            LxPrintAnything(2);
-        }).fire();
-        [timer1 observe:@selector(time) next:^(NSNumber *time) {
-            LxDBAnyVar(time);
-        }];
+    SoulTimer *timer1 = self.time.decreasesKey(@"testMe").total(6).block(^ {
+        LxPrintAnything(2);
     }).fire();
-    
-    [timer observe:@selector(time) next:^(NSNumber *time) {
+    [timer1 observe:@selector(time) next:^(NSNumber *time) {
         LxDBAnyVar(time);
     }];
-    
-    SoulTimer *timerGetted =  self.timeMatrix.get(@"test");
-    [timerGetted observe:@selector(time) next:^(NSNumber *time) {
-        //    SoulStrong(timer);
-        LxDBAnyVar(time);
-        LxDBAnyVar(self.timeMatrix.timerMDictionary);
-        if (time.intValue == 8) {
-            //            [timer stops];
-        }
-    }]</string>
+}).fire();
+
+[timer observe:@selector(time) next:^(NSNumber *time) {
+    LxDBAnyVar(time);
+}];
+
+SoulTimer *timerGetted =  self.time.get(@"testMe");
+[timerGetted observe:@selector(time) next:^(NSNumber *time) {
+    //    SoulStrong(timer);
+    LxDBAnyVar(time);
+    LxDBAnyVar(self.time.timerMDictionary);
+    if (time.intValue == 8) {
+        //            [timer stops];
+    }
+}];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6A60757F-6EDF-4272-9AF1-EFF0AEC61203</string>
 	<key>IDECodeSnippetLanguage</key>
