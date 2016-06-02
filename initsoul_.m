@@ -17,4 +17,7 @@
         @strongify(self);
         
     };
+    self.soulDidLoad = ^ {
+        SoulStrong(self);
+    };
 }

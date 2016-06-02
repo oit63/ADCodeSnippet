@@ -19,6 +19,9 @@
         @strongify(self);
         
     };
+    self.soulDidLoad = ^ {
+        SoulStrong(self);
+    };
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DDE2CDA1-08E2-4D0E-A646-D84F7228CE7B</string>
