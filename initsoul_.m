@@ -10,11 +10,11 @@
 -(void)initSoul {
 @weakify(self);
     self.soulWillAppear  = ^{
-        @strongify(self);
+        SoulStrong(self);
         
     };
     self.soulWillDisappear = ^{
-        @strongify(self);
+        SoulStrong(self);
         
     };
     self.soulDidLoad = ^ {
