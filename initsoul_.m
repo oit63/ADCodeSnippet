@@ -8,7 +8,7 @@
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
 -(void)initSoul {
-@weakify(self);
+    SoulWeak(self);
     self.soulWillAppear  = ^{
         SoulStrong(self);
         

@@ -2,36 +2,32 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>soul_initSoul </string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(void)initSoul {
-    SoulWeak(self);
-    self.soulWillAppear  = ^{
-        SoulStrong(self);
+	<string>    //    SoulWeak(self);
+    self.soulWillAppear = ^ {
+            //        SoulStrong(self);
         
     };
-    self.soulWillDisappear = ^{
-        SoulStrong(self);
+    self.soulWillDisappear = ^ {
+            //        SoulStrong(self);
         
     };
     self.soulDidLoad = ^ {
-        SoulStrong(self);
-    };
-}</string>
+            //        SoulStrong(self);
+    };</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DDE2CDA1-08E2-4D0E-A646-D84F7228CE7B</string>
+	<string>64B22E43-852C-4477-B8CB-AC98D48C3DF3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>soul initSoul </string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
