@@ -1,5 +1,5 @@
 // soul table
-// 
+// static section
 //
 // IDECodeSnippetCompletionScopes: [CodeBlock]
 // IDECodeSnippetIdentifier: 51DE0FB8-F972-4C8E-BD8C-4C906A9906DA
