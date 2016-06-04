@@ -1,4 +1,4 @@
-// soul table
+// soul table top
 // static section
 //
 // IDECodeSnippetCompletionPrefix: soul_static_section
