@@ -8,5 +8,5 @@
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
     self.rowCount = 1;
-    self.defaultItemMatrix([AccessoryBriefProfileItemMatrix class]);
+    self.defaultItemMatrix([<##>class]);
     self.headerHeight = @0;
