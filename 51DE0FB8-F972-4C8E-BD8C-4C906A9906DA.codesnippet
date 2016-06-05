@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>    self.rowCount = 1;
     self.defaultItemMatrix([&lt;##&gt; class]);
-    self.headerHeight = @0;</string>
+    self.headerHeight = @(defaultSectionHeaderHeightTop);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>51DE0FB8-F972-4C8E-BD8C-4C906A9906DA</string>
 	<key>IDECodeSnippetLanguage</key>

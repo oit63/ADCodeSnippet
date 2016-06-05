@@ -9,4 +9,4 @@
 // IDECodeSnippetVersion: 2
     self.rowCount = 1;
     self.defaultItemMatrix([<##> class]);
-    self.headerHeight = @0;
+    self.headerHeight = @(defaultSectionHeaderHeightTop);
